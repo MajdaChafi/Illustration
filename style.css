@@ -422,6 +422,15 @@ p{
     line-height: 2rem;
     font-weight: 500;
 }
+.mail {
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.mail:hover{
+    color: #e090ad;
+    font-weight: bold;
+}
 /* End Contact Section */
 /* Footer */
 #footer{
@@ -445,6 +454,7 @@ p{
     color: white;
     font-size: 1.3rem;
 }
+
 /* End Footer */
 /* Keyframes */
 @keyframes hamburger_puls{
@@ -571,15 +581,7 @@ p{
         width: 100%;
         text-align: center;
     }
-    .mail {
-        color: black;
-        font-size: 2rem;
-        cursor: pointer;
-    }
-    .mail:hover{
-        color: #e090ad;
-        font-weight: bold;
-    }
+    
     /* End Contact */
 }
 /* Media Query For Tablet */
